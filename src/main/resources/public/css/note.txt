@@ -1,0 +1,4 @@
+public/img/site-logo.png – the site logo
+public/img/favico.ico – the browser icon for the site
+
+public/js/jquery-3.1.0.min.js – the jQuery library that will simplify your JS code. Copy it from the resources for this tutorial or from Internet: https://jquery.com/download/.
