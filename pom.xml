@@ -19,9 +19,15 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
         </dependency>
+        <!--install Spring Boot Development Tools -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-devtools</artifactId>
+        </dependency>
     </dependencies>
     <!-- Setting project to Java 8-->
     <properties>
         <java.version>1.8</java.version>
     </properties>
+
 </project>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<!--
+The Following code is a sample HTML page that uses the Thymeleaf view engine to display the current date and time.
+The namespace xmlns:th=“http://www.thymeleaf.org” indicates that this file is not pure HTML,
+but is a Thymeleaf template that should be processed at the server side to produce a HTML page.
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="layout :: site-head">
+    <title>Welcome to Spring MVC Blog</title>
+</head>
+<body>
+<header th:replace="layout :: site-header" />
+<h1>Welcome to Spring MVC</h1>
+Now is: <b th:text="${execInfo.now.time}">date and time</b>
+<footer th:replace="layout :: site-footer" />
+</body>
+</html>
