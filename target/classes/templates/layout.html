@@ -14,7 +14,7 @@ Site footer section – holds the site footer area.
     <script src="../public/js/blog-scripts.js" th:src="@{/js/blog-scripts.js}"></script>
     <meta th:include="this :: head" th:remove="tag"/>
 </head><body><header th:fragment="site-header">
-    <!-- <a href="index.html" th:href="@{/}"><img src="../public/img/site-logo.png" th:src="@{/img/site-logo.png}" /></a> -->
+    <a href="index.html" th:href="@{/}"><img src="../public/img/site-logo.png" th:src="@{/img/site-logo.png}" /></a>
     <a href="index.html" th:href="@{/}">Home</a>
     <a href="users/login.html" th:href="@{/users/login}">Login</a>
     <a href="users/register.html" th:href="@{/users/register}">Register</a>
